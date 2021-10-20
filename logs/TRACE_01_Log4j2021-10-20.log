@@ -21,3 +21,14 @@
 [2021-10-20 21:20:02] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
 [2021-10-20 21:20:02] [ INFO ] [Reservar:26] El usuario ha entrado en el sistemas
 [2021-10-20 21:20:06] [ ERROR] [Reservar:113] El usuario ha introducido un comando no numérico
+[2021-10-20 21:23:41] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
+[2021-10-20 21:23:41] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
+[2021-10-20 21:23:41] [ INFO ] [Reservar:26] El usuario ha entrado en el sistemas
+[2021-10-20 21:23:44] [ INFO ] [Reservar:39] El usuario ha elegido la primera opcion
+[2021-10-20 21:23:49] [ INFO ] [Reservar:54] El usuario quiere un asiento aleatorio
+[2021-10-20 21:23:49] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
+[2021-10-20 21:23:49] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
+[2021-10-20 21:23:52] [ INFO ] [Reservar:62] El usario desea volver atrás
+[2021-10-20 21:23:52] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
+[2021-10-20 21:23:52] [ INFO ] [Vagon:30] El usuario quiere ver la disposicion de los asientos
+[2021-10-20 21:23:54] [ ERROR] [Reservar:116] El usuario ha introducido un comando no numérico

@@ -37,7 +37,9 @@ public class Reservar {
 		switch(opcionVagon) {
 		case 1:
 			logger.info("El usuario ha elegido la primera opcion");
+			
 			do {
+				
 				do {
 					
 					opcion= Integer.parseInt(JOptionPane.showInputDialog("introducir 1 para consultar disposicion \nintroducir 2 para asignar un asiento libre \nintroducir 3 para elegirlo \nintroducir 4 para salir"));
@@ -66,6 +68,7 @@ public class Reservar {
 		
 			
 			}while(noReservar == false);
+			
 			break;
 		case 2:
 			logger.info("El usuario ha elegido la tercera opcion");
