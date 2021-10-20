@@ -24,7 +24,11 @@ public class Reservar {
 	vagon2.CrearVagon();
 	System.out.println(vagon.MuestraDisposicion() + vagon2.MuestraDisposicion());
 	logger.info("El usuario ha entrado en el sistemas");
+	try {
 	do {
+	
+		
+	
 		do {
 			
 			opcionVagon= Integer.parseInt(JOptionPane.showInputDialog("introducir 1 para primer vagon \nintroducir 2 para segundo vagon \nintroducir 3 para salir"));
@@ -104,5 +108,9 @@ public class Reservar {
 		}
 		}while(noVagon == false);
 	
+	} catch (Exception e) {
+		System.out.println("Introduce un numero");
+		logger.error("El usuario ha introducido un comando no numérico");
+	}
 	}
 }
