@@ -39,6 +39,7 @@ public class Tickets {
 			}while(fila <0 || fila > 7);
 			
 			if(vagon.AsientosLibres(fila,columna)) {
+				logger.warn("El usuario está eligiendo asientos que ya no están disponibles");
 				System.out.println("Ese asiento no est� disponible");
 			}
 		}while(vagon.AsientosLibres(fila,columna) == true);
@@ -60,6 +61,7 @@ public class Tickets {
 		if(vagon.AsientosLibres(fila,columna)) {
 			System.out.println("Ese asiento no est� disponible");
 		}else {
+			logger.warn("El usuario está eligiendo asientos que ya no están disponibles");
 			System.out.println( "Ese asiento est� disponible");
 		}
 	}
