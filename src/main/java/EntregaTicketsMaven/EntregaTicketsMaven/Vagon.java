@@ -27,6 +27,7 @@ public class Vagon {
 	}
 	
 	public String MuestraDisposicion() {
+		logger.info("El usuario quiere ver la disposicion de los asientos");
 		StringBuilder casillas= new StringBuilder(64);
 		int i,j;
 		for(i=0;i<tamFilas;i++) {
