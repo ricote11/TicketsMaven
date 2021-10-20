@@ -1,10 +1,15 @@
 package EntregaTicketsMaven.EntregaTicketsMaven;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+
 public class Vagon {
 
 	public String vagon [][];
 	public static int  tamFilas = 4;
 	public static int tamColumnas = 8;
+	private static Logger logger = LogManager.getLogger(Vagon.class);
 	
 	
 	public Vagon()

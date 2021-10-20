@@ -2,8 +2,13 @@ package EntregaTicketsMaven.EntregaTicketsMaven;
 
 import javax.swing.JOptionPane;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+
+
 public class Reservar {
-	
+	private static Logger logger = LogManager.getLogger(Reservar.class);
 	public static void main(String[] args) {
 		
 		
@@ -18,7 +23,7 @@ public class Reservar {
 	vagon.CrearVagon();
 	vagon2.CrearVagon();
 	System.out.println(vagon.MuestraDisposicion() + vagon2.MuestraDisposicion());
-	
+	logger.info("El usuario ha entrado en el sistemas");
 	do {
 		do {
 			
@@ -27,6 +32,7 @@ public class Reservar {
 		
 		switch(opcionVagon) {
 		case 1:
+			logger.info("El usuario ha elegido la primera opcion");
 			do {
 				do {
 					
@@ -54,6 +60,7 @@ public class Reservar {
 			}while(noReservar == false);
 			break;
 		case 2:
+			logger.info("El usuario ha elegido la tercera opcion");
 			do {
 				do {
 					
@@ -81,6 +88,7 @@ public class Reservar {
 			}while(noReservar == false);
 			break;
 		case 3:
+			logger.info("El usuario quiere salir de la aplicacion");
 			noVagon = true;
 			
 		default:

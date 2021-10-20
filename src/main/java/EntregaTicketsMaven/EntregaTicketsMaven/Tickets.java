@@ -2,7 +2,13 @@ package EntregaTicketsMaven.EntregaTicketsMaven;
 
 import javax.swing.JOptionPane;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+
+
 public class Tickets {
+	private static Logger logger = LogManager.getLogger(Tickets.class);
 	public static void AsientoAleatorio(Vagon vagon)
 	{
 		
