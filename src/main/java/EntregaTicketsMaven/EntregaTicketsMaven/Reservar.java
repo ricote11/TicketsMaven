@@ -41,15 +41,19 @@ public class Reservar {
 				
 				switch(opcion) {
 				case 1:
+					logger.info("El usuario quiere consultar los asientos");
 					Tickets.consultarAsiento(vagon);
 					break;
 				case 2:
+					logger.info("El usuario quiere un asiento aleatorio");
 					Tickets.AsientoAleatorio(vagon);
 					break;
 				case 3:
+					logger.info("El usuario quiere reservar un asiento");
 					Tickets.reservarAsiento(vagon);
 					break;
 				case 4:
+					logger.info("El usario desea volver atrás");
 					noReservar = true;
 				default:
 					}
@@ -69,15 +73,19 @@ public class Reservar {
 				
 				switch(opcion) {
 				case 1:
+					logger.info("El usuario quiere consultar los asientos");
 					Tickets.consultarAsiento(vagon2);
 					break;
 				case 2:
+					logger.info("El usuario quiere un asiento aleatorio");
 					Tickets.AsientoAleatorio(vagon2);
 					break;
 				case 3:
+					logger.info("El usuario quiere reservar un asiento");
 					Tickets.reservarAsiento(vagon2);
 					break;
 				case 4:
+					logger.info("El usario desea volver atrás");
 					noReservar = true;
 				default:
 					}
